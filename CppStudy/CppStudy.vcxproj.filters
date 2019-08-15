@@ -20,10 +20,7 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="pch.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="CppStudy.cpp">
+    <ClCompile Include="range-based for statement.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
