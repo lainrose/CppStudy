@@ -116,11 +116,45 @@ int main()
 	// 해당 위치의 값을 제거
 	v.erase(v.end());
 
+	// vector iterator 사용
 	vector<int>::const_iterator iter;
 
 	for (iter = v.begin(); iter != v.end(); ++iter)
 	{
 		cout << *iter << endl;
+	}
+
+	//erase 사용 시 주의사항
+	// 삭제시 데이터가 앞으로 당겨지기 때문에 엉뚱한 포인터를 가리킬 수 있음
+	for (vector<int>::iterator it = v.begin(); it != v.end(); it++)
+	{
+		if (*it == 20)
+			it = v.erase(it);
+	}
+
+	//아래와 같이 사용해야 안전
+	for (vector<int>::size_type i = 0; i < v.size(); )
+	{
+		if (v[i] == 20)
+			v.erase(v.begin() + i);
+		else
+			i++;
+	}
+
+	for (vector<int>::iterator it = v.begin(); it != v.end();)
+	{
+		if (*it == 20)
+			it = v.erase(it);
+		else
+			it++;
+	}
+
+	for (vector<int>::iterator it = v.begin(); it != v.end();)
+	{
+		if (*it == 20)
+			v.erase(it++);
+		else
+			it++;
 	}
 
 	return 0;
