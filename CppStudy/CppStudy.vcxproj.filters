@@ -39,5 +39,8 @@
     <ClCompile Include="lambda.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="emplace_back.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
