@@ -35,7 +35,7 @@ int main()
 	v.push_back(SomeClass(1, 2, "3"));
 	v.emplace_back(1, 2, "4");
 
-	for_each(v.begin(), v.end(), [](SomeClass& v) { cout << v.i << v.j << v.str << endl; });
+	for_each(v.begin(), v.end(), [](auto& v) { cout << v.i << v.j << v.str << endl; });
 
 	return 0;
 }
