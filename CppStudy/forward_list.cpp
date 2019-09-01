@@ -47,7 +47,5 @@ int main()
 	for_each(list_1.begin(), list_1.end(), [](int n) {cout << n << ' '; });
 	cout << endl;
 
-
 	return 0;
 }
-
