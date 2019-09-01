@@ -51,5 +51,8 @@
     <ClCompile Include="list.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="forward_list.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

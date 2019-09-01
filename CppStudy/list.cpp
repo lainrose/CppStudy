@@ -47,7 +47,7 @@ int main()
 	for_each(list_1.begin(), list_1.end(), [](int n) {cout << n << ' '; });
 	cout << endl;
 
-	// 중복제거
+	// 서로 인접한 대상만 중복제거, sort 후 사용하면 전체 중복제거
 	list_1.unique();
 	for_each(list_1.begin(), list_1.end(), [](int n) {cout << n << ' '; });
 	cout << endl;
