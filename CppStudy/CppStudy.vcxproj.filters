@@ -60,7 +60,10 @@
     <ClCompile Include="queue.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="소priority_queue.cpp">
+    <ClCompile Include="priority_queue.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="heap.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
