@@ -13,64 +13,82 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="소스 파일\연관_컨테이너">
+      <UniqueIdentifier>{3c7169a7-3c00-4648-8303-958ead4fd8e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\순차_컨테이너">
+      <UniqueIdentifier>{40a911b7-3b23-42e6-86c7-956af534ea31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\스마트_포인터">
+      <UniqueIdentifier>{18bdf2b1-dcf5-4305-99bc-ec88ef6fdf32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\컨테이너_어댑터">
+      <UniqueIdentifier>{6ca68f0b-af5b-4500-be77-623d5e2e0b95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\함수를_인수로_전달하기">
+      <UniqueIdentifier>{2569372f-67b9-482a-bfe5-868283a9e0d0}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="vector.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="range-based for statement.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="vector_test.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="shared_ptr.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="unique_ptr.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="weak_ptr.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="for_each.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="lambda.cpp">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="shared_ptr.cpp">
+      <Filter>소스 파일\스마트_포인터</Filter>
     </ClCompile>
-    <ClCompile Include="emplace_back.cpp">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="unique_ptr.cpp">
+      <Filter>소스 파일\스마트_포인터</Filter>
     </ClCompile>
-    <ClCompile Include="array.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="deque.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="list.cpp">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="weak_ptr.cpp">
+      <Filter>소스 파일\스마트_포인터</Filter>
     </ClCompile>
     <ClCompile Include="forward_list.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\순차_컨테이너</Filter>
     </ClCompile>
-    <ClCompile Include="stack.cpp">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="vector_test.cpp">
+      <Filter>소스 파일\순차_컨테이너</Filter>
     </ClCompile>
-    <ClCompile Include="queue.cpp">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="array.cpp">
+      <Filter>소스 파일\순차_컨테이너</Filter>
+    </ClCompile>
+    <ClCompile Include="deque.cpp">
+      <Filter>소스 파일\순차_컨테이너</Filter>
+    </ClCompile>
+    <ClCompile Include="emplace_back.cpp">
+      <Filter>소스 파일\순차_컨테이너</Filter>
+    </ClCompile>
+    <ClCompile Include="list.cpp">
+      <Filter>소스 파일\순차_컨테이너</Filter>
+    </ClCompile>
+    <ClCompile Include="vector.cpp">
+      <Filter>소스 파일\순차_컨테이너</Filter>
     </ClCompile>
     <ClCompile Include="priority_queue.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\컨테이너_어댑터</Filter>
+    </ClCompile>
+    <ClCompile Include="stack.cpp">
+      <Filter>소스 파일\컨테이너_어댑터</Filter>
     </ClCompile>
     <ClCompile Include="heap.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\컨테이너_어댑터</Filter>
     </ClCompile>
-    <ClCompile Include="pointer_in_container.cpp">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="queue.cpp">
+      <Filter>소스 파일\컨테이너_어댑터</Filter>
+    </ClCompile>
+    <ClCompile Include="lambda.cpp">
+      <Filter>소스 파일\함수를_인수로_전달하기</Filter>
     </ClCompile>
     <ClCompile Include="set.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\연관_컨테이너</Filter>
+    </ClCompile>
+    <ClCompile Include="pointer_in_container.cpp">
+      <Filter>소스 파일\컨테이너_어댑터</Filter>
+    </ClCompile>
+    <ClCompile Include="map.cpp">
+      <Filter>소스 파일\연관_컨테이너</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
